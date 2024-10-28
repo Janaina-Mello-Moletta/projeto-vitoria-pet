@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media  screen and (max-width:600px) {
+      body {
+        width: 100vw;
+        height: 100vh;
+  }
+     header, header > nav {
+        flex-flow: column nowrap;
+     }
+
+      header > h1  {
+      font-size: 34px;
+      color: white;
+      text-shadow: 1px 1px 0px blue;
+      flex-basis: 40px;
+  }
+
+    header > nav > a {
+     width: 50vw;
+     padding-left: 10px;
+     border-radius: 10px;
+     background-color: blue;
+  } 
+
+    header > nav > a:hover {
+    background-color: rgb(66, 66, 194);
+  }
+
+  .img {
+    width: -10vw;
+    height: 10vh;
+  }
+
+  .container {
+    font-size: 0.5em;
+    flex-flow: column nowrap;
+  }
+
+  .img2 {
+    width: 80vw;
+  }
+
+  .texto {
+   font-size: 2.5em;
+   color: white;
+   text-shadow: 0px 0px 0px  white;
+}
+ .texto2 {
+  font-size: 2.0em;
+  margin: 10px;
+
+}
+
+.img3 {
+   width: 90vw;
+   border-radius: 15px;
+}
+
+.botão {
+   font-size: 1.2em;
+   margin-left: 30px;
+   padding: 10px;
+   padding-bottom: 50px;
+
+}
+
+}
